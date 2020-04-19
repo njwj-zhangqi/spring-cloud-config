@@ -1,0 +1,21 @@
+# config
+spring:
+  application:
+    name: feign
+  thymeleaf:
+    cache: true
+
+
+server:
+  port: 8940
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+feign:
+  hystrix:
+    enabled: true
+# feign自带熔断器,开启
+
+#add notes
