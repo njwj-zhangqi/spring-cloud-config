@@ -6,7 +6,10 @@ spring:
     cache: true
   zipkin:
     base-url: http://localhost:9411
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:9500
 server:
   port: 8940
 
