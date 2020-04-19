@@ -4,7 +4,6 @@ spring:
     name: feign
   thymeleaf:
     cache: true
-  profile: test
 
 server:
   port: 8950
