@@ -7,7 +7,7 @@ spring:
 
 
 server:
-  port: 8930
+  port: 8940
 
 eureka:
   client:
