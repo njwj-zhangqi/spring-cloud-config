@@ -17,3 +17,5 @@ feign:
   hystrix:
     enabled: true
 # feign自带熔断器,开启
+
+#add notes
