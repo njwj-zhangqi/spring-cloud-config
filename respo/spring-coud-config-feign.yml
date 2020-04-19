@@ -3,11 +3,11 @@ spring:
   application:
     name: feign
   thymeleaf:
-    cache: false
+    cache: true
 
 
 server:
-  port: 8910
+  port: 8920
 
 eureka:
   client:
